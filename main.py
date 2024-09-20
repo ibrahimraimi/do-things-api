@@ -17,6 +17,8 @@ DATABASE_URL: str = os.getenv("DATABASE_URL")
 origins = [
     "http://localhost",
     "http://localhost:5173",
+    "https://do-things.vercel.app",
+    "https://main--do-thing.netlify.app"
 ]
 
 app.add_middleware(
