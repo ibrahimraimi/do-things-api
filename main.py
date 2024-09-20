@@ -16,7 +16,7 @@ DATABASE_URL: str = os.getenv("DATABASE_URL")
 
 origins = [
     "http://localhost",
-    "http://localhost:3000",
+    "http://localhost:5173",
 ]
 
 app.add_middleware(
