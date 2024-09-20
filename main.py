@@ -18,7 +18,7 @@ origins = [
     "http://localhost",
     "http://localhost:5173",
     "https://do-things.vercel.app",
-    "https://main--do-thing.netlify.app"
+    "https://do-thing.netlify.app"
 ]
 
 app.add_middleware(
